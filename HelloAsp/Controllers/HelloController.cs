@@ -6,7 +6,7 @@ public class HelloController : Controller
 {
     public IActionResult Index()
     {
-        ViewBag.message="HelloWorld";
+        ViewBag.message="holamundo";
         return View();
     }
 
